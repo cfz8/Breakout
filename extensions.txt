@@ -1,0 +1,11 @@
+Christina Zhao
+cfz8
+12/11/15
+
+Extensions:
+1.Keep score. Add one point for every brick. Used a GLabel object in breakout to keep the message and created an attribute score to Play to increment the score. A getter was used to get the score from Play to use to update score in breakout.
+
+2.Sound effects. Plays two plate crash sounds (plate1.wav, plate2.wav) whenever the ball hits the bricks and a bounce sound (bounce.wav) whenever the ball hits the paddle. The user is also given an option of turning on ('y') or off ('n') the sound.This was done by detecting whether or not those keys were pressed, and if they were, the sound was either unmuted or muted.
+
+3.Restart game. At the end of the game (win/lose), you can press any key to restart the game. This was done by just detecting whether a key was pressed, and then setting the state to STATE_NEWGAME. 
+
